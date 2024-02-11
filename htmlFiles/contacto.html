@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacta con nosotros</title>
+    <link rel="stylesheet" href="../styles/commonStyles.css">
+    <link rel="stylesheet" href="../styles/contacto.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="../index.html" class="logo">
+            <img id="imgIcono" src="../images/Logos/logoTitulo.png" alt="Logo del título">
+            <h1 class="IES">IES Marcas Gavilan</h1>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li class="dropdown">
+                    <a href="colegio.html" class="dropbtn">Nuestro centro</a>
+                    <div class="dropdown-content">
+                        <a href="colegio.html">Instalaciones</a>
+                        <a href="proyectosAlumno.html">Proyectos de nuestros alumnos</a>
+                        <a href="contacto.html">Contacta con nosotros</a>
+                    </div>
+                </li>
+                <li><a href="modulos.html">Módulos/Asignaturas</a></li>
+                <li><a href="cv.html">Currículum Vitae</a></li>
+                <li><a href="formulario.html">Formulario notas</a></li>
+                <li><a href="aficiones.html">Aficiones</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="container">
+        <h1>Contacto</h1>
+        <div class="intro">
+            <p>Bienvenido al formulario de contacto del IES Marcas Gavilán. Estamos encantados de que estés interesado
+                en ponerte en contacto con nosotros. Si tienes alguna pregunta, sugerencia o simplemente quieres
+                enviarnos tus comentarios, ¡no dudes en hacerlo a través de este formulario! Estamos aquí para ayudarte
+                en todo lo que necesites.</p>
+            <p>Agradecemos tu interés en nuestra escuela y esperamos poder conocerte pronto. ¡Gracias por considerar al
+                IES Marcas Gavilán como parte de tu experiencia educativa!</p>
+            <img id="icono_contacto" src="https://cdn-icons-png.flaticon.com/512/838/838677.png" alt="iconoContacto">
+        </div>
+
+        <form action="" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+        </form>
+        <button>Enviar</button>
+    </div>
+</body>
+
+</html>

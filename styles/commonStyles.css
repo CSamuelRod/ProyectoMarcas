@@ -1,0 +1,272 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    text-align: center; 
+}
+/*CSS para el header*/
+#imgIcono{
+    float: left;
+    height: 50px;
+}
+.IES{
+    float: left;
+    color: gray;
+}
+header {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Fin CSS para el header*/
+
+section {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #343a40;
+}
+
+/* Estilos para hacer las imágenes más pequeñas */
+.recursosImg,
+.ofertaFormativa {
+    max-width: 200px; /* Establece el ancho máximo para las imágenes */
+    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+    transition: transform 0.3s ease-in-out; /* Transición suave */
+}
+
+.recursosImg:hover,
+.ofertaFormativa:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen al 110% al pasar el cursor sobre ella */
+}
+
+/* Estilos para las imágenes de la oferta formativa que rotan al pasar el cursor sobre ellas */
+.ofertaFormativa {
+    transition: transform 0.3s ease-in-out; /* Transición suave */
+}
+
+.ofertaFormativa:hover {
+    transform: rotate(360deg); /* Rotación completa de 360 grados al pasar el cursor sobre la imagen */
+}
+/* Estilos para las imágenes que se agrandan al pasar el cursor sobre ellas */
+.recursosImg {
+    transition: transform 0.3s ease-in-out; /* Transición suave */
+}
+
+.recursosImg:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen al 110% al pasar el cursor sobre ella */
+}
+
+/* Fin Estilos para hacer las imágenes más pequeñas */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.modalidades {
+    margin-left: 20px;
+}
+
+/* Estilos específicos */
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos específicos para la tabla */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td {
+    background-color: #fff;
+}
+
+/* Estilos específicos para los títulos de sección */
+section h1 {
+    color: #343a40;
+    border-bottom: 2px solid #343a40;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #343a40;
+    margin-bottom: 10px;
+}
+
+/* Estilos específicos para las listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Estilos específicos para los enlaces */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos específicos para la barra de navegación */
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Estilos para el menú desplegable */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #343a40;
+    min-width: 200px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.footerImagen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#webIzquierda, #gitDerecha {
+    margin: 0 10px; /* Ajusta los márgenes horizontalmente según sea necesario */
+}
+
+.textoGeneral {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin: 0 auto 20px auto; /* Centra la sección y agrega margen en la parte superior e inferior */
+    border-radius: 8px;
+    max-width: 800px; /* Limita el ancho máximo de la sección */
+}
+
+.textoGeneral h1 {
+    color: #343a40;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.textoGeneral p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.extraescolares ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.extraescolares ul li {
+    display: inline-block;
+    width: calc(33.33% - 20px); /* Esto establece que cada elemento ocupe un tercio del ancho del contenedor, con un espacio de 20px entre ellos */
+    margin-right: 20px; /* Espacio entre elementos */
+    vertical-align: top; /* Alinea los elementos en la parte superior */
+    text-align: center; /* Centra el texto */
+    margin-bottom: 20px; /* Espacio inferior */
+    box-sizing: border-box; /* Incluye el padding y border en el ancho del elemento */
+}
+
+.extraescolares ul li:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento */
+}
+
+.extraescolares ul li img {
+    max-width: 100%; /* Ajusta el ancho máximo de las imágenes al ancho del contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+}
