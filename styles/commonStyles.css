@@ -223,7 +223,7 @@ nav ul li a:hover {
     align-items: center;
 }
 
-#webIzquierda, #gitDerecha {
+.webIzquierda, .gitDerecha {
     margin: 0 10px; /* Ajusta los márgenes horizontalmente según sea necesario */
 }
 
