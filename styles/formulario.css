@@ -1,0 +1,84 @@
+
+
+/* Estilos para la sección del formulario */
+.containerDatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tablaInserts {
+    margin-bottom: 20px;
+}
+
+/* Estilos para las etiquetas de los campos del formulario */
+th {
+    text-align: right;
+}
+
+/* Estilos para los campos de entrada del formulario */
+td input[type="text"],
+td input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+/* Estilos para el botón "Añadir datos" */
+#add-data {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#add-data:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para la tabla de notas */
+.tablaDatos {
+    margin-bottom: 20px;
+}
+
+.tablaDatos table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tablaDatos th,
+.tablaDatos td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.tablaDatos th {
+    background-color: #f2f2f2;
+}
+
+.tablaDatos tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para el botón "Generar PDF" */
+#btn-genera-pdf {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#btn-genera-pdf:hover {
+    background-color: #218838;
+}

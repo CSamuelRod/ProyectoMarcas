@@ -1,0 +1,67 @@
+Código: miércoles 5-4-23 ( en vacaciones Semana Santa)
+Documentación: domingo 16-4-23 (siguiente semana tras Semana Santa)
+
+
+1
+ Práctica integradora de HTML-CSS: Sitio Web personal del alumno 
+Se  trata  de  diseñar  un  sitio  Web  de  formato  y  contenido  libre  con  información  de 
+interés para el alumno. FECHA DE ENTREGA:   
+ Código:  miércoles 5-4-23 (en vacaciones Semana Santa) 
+ Documentación: domingo 16-4-23 (siguiente semana tras Semana Santa) 
+ REQUISITOS MÍNIMOS 
+ El sitio debe constar de 6-8 páginas. 
+ Al  menos  una  de  las  páginas  tendrá  las  secciones  de  una  página  actual  con 
+elementos  de  HTML5  (apuntes  HTML:  3.4.1  Estructura  del  cuerpo.  Etiquetas 
+semánticas). 
+ En  su  diseño  se  deben  incluir  al  menos  un  objeto  de  cada  uno  de  los  tipos 
+estudiados:  listas,  hiperenlaces  internos  y  externos,  imágenes,  mapas  sensibles, 
+tablas y formularios. Se añadirá al menos un menú (horizontal /vertical). 
+ Se  incluirá  un  enlace  al  currículum  vitae  del  alumno  en  formato  HTML  y  otro 
+enlace a una página HTML con las aficiones del alumno. 
+ Se usarán diferentes aspectos estéticos en las páginas (colores, imágenes, 
+fondos, tipos y tamaños de fuentes, etc). Notas: 
+ 
+ Por supuesto que todos los archivos html y css deben estar validados. 
+ 
+ Debe  codificarse  al  menos  en  html  y  css,  dejando  libre  al  autor  añadir  lo  que 
+considere siempre que sea de su exclusiva creación y actual. 
+Los  ficheros  que  formen  el  sitio  Web  (ficheros  .html,  imágenes  y  otros  ficheros  si  los 
+hubiera) se entregarán, subiéndolos al aula virtual, dentro de un fichero comprimido con 
+nombre  WEB_APE_NOM.zip  donde  APE  y  NOM  coincidirán  con  el  primer  apellido  y 
+nombre del alumno. CRITERIOS DE EVALUACION 
+ 
+1) Se valorará que sea original. 2) Se valorará que las páginas sean lo más funcionales posible, legibles y 
+correctamente formateadas (párrafos bien alineados, etc..). 
+
+
+
+
+1
+1 
+ 
+DOCUMENTACIÓN  PROYECTO  HTML-CSS 
+ 
+Documentar un Proyecto Técnico 
+Valorar la documentación como fuente de conocimiento y herramienta imprescindible para la 
+eficiencia de un trabajo, principalmente, aquellos trabajos complejos que comprenden varias fases.   
+ Este documento contiene los siguientes apartados: A.  Esquema del documento a entregar sobre el proyecto B.  Normas y Consejos para realizar la documentación C.  Apoyo 
+ 
+A- ESQUEMA 
+1. Introducción: 1.1. Planteamiento: cómo surge la idea 1.2. Descripción del proyecto 1.3. Ámbito del proyecto 2. Proceso: 2.1. Requisitos funcionales: describir qué debe realizar el proyecto 2.2. Casos de uso: describir de forma concreta en cada caso de uso cómo utilizar parte de la funcionalidad de un sistema. La colección de todos los casos de uso describe toda la funcionalidad del sistema. 2.3. Implementación: tecnologías utilizadas en el desarrollo del proyecto 3. Resultado: 3.1. Estructura del proyecto: directorios 3.2. Descripción de cada página: detalle de funciones y elementos  3.3. Pruebas 4. Conclusiones: Futuro. Posibles mejoras 5. Bibliografía. Sitios web útiles: fuentes que han ayudado al proyecto  
+ La documentación del proyecto se entregará en el aula virtual, en un fichero con nombre DOC_APE_NOM.pdf donde APE y NOM coincidirán con el primer apellido y nombre del alumno. 
+2 
+ 
+ 
+B- NORMAS Y CONSEJOS 
+1. Fuentes, usa estándares como: 
+ Arial 
+ Courier New 
+ Times New Roman 
+ Helvetica 2. Portada (con título del proyecto, nombre y apellidos, ciclo y curso). Indice 3. Respeta márgenes, ortografía y numera las páginas 4. Escribe de forma sencilla: 
+ Documentar un proyecto no es escribir una novela. Se concreto. Cíñete a lo pedido. 
+ Utiliza un vocabulario sencillo, adaptado a cada miembro del equipo y combínalo 
+creando frases cortas y con un único sentido. 
+  Revísalo antes de darlo por entregable. 5. Adjunta imágenes y explicaciones gráficas: Dentro del documento, añade capturas de pantalla, gráficos, esbozos y ejemplos que 
+puedan ayudar a ilustrar tus ideas. Apóyate de flechas y comentarios que expliquen cada 
+elemento.            Ejemplo:   
+  
